@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="card-container"
+  data-testid="test-1"
+>
+  <h2
+    className="ant-typography css-dev-only-do-not-override-amq5gd"
+    style={
+      Object {
+        "WebkitLineClamp": undefined,
+      }
+    }
+  >
+    Calculator App
+  </h2>
+  <div
+    className="ant-card ant-card-bordered card css-dev-only-do-not-override-amq5gd"
+    data-testid="calculator-card"
+    style={Object {}}
+  >
+    <div
+      className="ant-card-body"
+      style={Object {}}
+    >
+      <button
+        className="css-dev-only-do-not-override-amq5gd ant-float-btn float-button ant-float-btn-default ant-float-btn-circle"
+        data-testid="add-row-btn"
+        onClick={[Function]}
+        type="button"
+      >
+        <div
+          className="ant-float-btn-body"
+        >
+          <div
+            className="ant-float-btn-content"
+          >
+            <div
+              className="ant-float-btn-icon"
+            >
+              <span
+                aria-label="plus"
+                className="anticon anticon-plus"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="plus"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                  />
+                  <path
+                    d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </button>
+      <div
+        className="ant-card ant-card-bordered css-dev-only-do-not-override-amq5gd"
+        style={Object {}}
+      >
+        <div
+          className="ant-card-body"
+          style={Object {}}
+        >
+          <span
+            className="result-text"
+            data-testid="result-span"
+          >
+            0
+          </span>
+        </div>
+      </div>
+      <div
+        className="ant-list ant-list-split list-container css-dev-only-do-not-override-amq5gd"
+        style={Object {}}
+      >
+        <div
+          className="ant-spin-nested-loading css-dev-only-do-not-override-amq5gd"
+        >
+          <div
+            className="ant-spin-container"
+          >
+            <div
+              className="ant-list-empty-text"
+            >
+              <div
+                className="css-dev-only-do-not-override-amq5gd ant-empty ant-empty-normal"
+                style={Object {}}
+              >
+                <div
+                  className="ant-empty-image"
+                >
+                  <svg
+                    height="41"
+                    viewBox="0 0 64 41"
+                    width="64"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      fill="none"
+                      fillRule="evenodd"
+                      transform="translate(0 1)"
+                    >
+                      <ellipse
+                        cx="32"
+                        cy="33"
+                        fill="#f5f5f5"
+                        rx="32"
+                        ry="7"
+                      />
+                      <g
+                        fillRule="nonzero"
+                        stroke="#d9d9d9"
+                      >
+                        <path
+                          d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
+                        />
+                        <path
+                          d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
+                          fill="#fafafa"
+                        />
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div
+                  className="ant-empty-description"
+                >
+                  No data
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
