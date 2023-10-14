@@ -34,8 +34,8 @@ const App: React.FC = () => {
    * @param {number} index - The index of the row to remove.
    */
   const handleRemoveRow = (index: number): void => {
-    setData((data: Array<RowDataModal>): Array<RowDataModal> => {
-      return [...data].filter(( _ , i:number) => i !== index )
+    setData((data) => {
+      return [...data].filter(( _ , i) => i !== index )
     })
   };
 
@@ -56,9 +56,11 @@ const App: React.FC = () => {
    * @param {number} index - The index of the row to update.
    */
   const handleChange = (value: number | null, index: number) : void => {
-    const updatedRows = [...data];
-    updatedRows[index].value = value;
-    setData(updatedRows);
+    setData((prevData) => {
+      const updatedRows = [...prevData];
+      updatedRows[index].value = value;
+      return updatedRows;
+    });
   }
 
   /**
@@ -67,9 +69,11 @@ const App: React.FC = () => {
    * @param {number} index - The index of the row to update.
    */
   const handleOperationChange = (value: string, index: number) : void => {
-    const updatedRows = [...data];
-    updatedRows[index].operation = value as Operation;
-    setData(updatedRows);
+    setData((prevData) => {
+      const updatedRows = [...prevData];
+      updatedRows[index].operation = value as Operation;
+      return updatedRows;
+    });
   }
 
   /**

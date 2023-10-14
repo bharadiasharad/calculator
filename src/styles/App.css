@@ -1,5 +1,4 @@
 .card-container {
-  padding-top: 5vh;
   padding-left: 20px;
 }
 
@@ -7,7 +6,7 @@
   min-width: 260px;
   width: 360px;
   max-width: 90vw;
-  max-height: 92vh;
+  max-height: 85vh;
 }
 
 .float-button {
