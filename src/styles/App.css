@@ -1,0 +1,56 @@
+.card-container {
+  padding-top: 5vh;
+  padding-left: 20px;
+}
+
+.card {
+  min-width: 260px;
+  width: 360px;
+  max-width: 90vw;
+  max-height: 92vh;
+}
+
+.float-button {
+  position: absolute;
+  right: 50px;
+}
+
+.result-text {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.list-container {
+  min-height: 15vh;
+  height: auto;
+  max-height: 68vh;
+  margin-top: 20px;
+  overflow: auto;
+  padding-bottom: 60px;
+}
+
+.space-compact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-number {
+  width: 100%;
+}
+
+.icon-button {
+  margin-top: 4px;
+  padding-left: 12px;
+}
+
+.delete-button {
+  color: red;
+  padding-left: 32px;
+  padding-right: 10px;
+}
+
+.eye-icon {
+  color: blue;
+}
